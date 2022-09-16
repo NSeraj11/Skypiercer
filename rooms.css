@@ -1,0 +1,128 @@
+:root{
+    --transition: all 0.3s linear;
+    --spacing: 0.1rem;
+    --radius: 0.25rem;
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    --max-width: 1170px;
+    --fixed-width: 620px;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: black;
+}
+
+.main-container{
+    border: 1px solid white;
+    background-color: white;
+    padding:15px;
+    margin:0;
+    
+}
+
+.header-text{
+    color:black;
+    text-align: center;
+    
+}
+
+.header-logo img{
+    height:50px;
+    background-color: white;
+    position: relative;
+}
+
+.nav-center ul{
+    list-style-type: none;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.nav-center ul li{
+    display: inline;
+    padding:30px;
+}
+
+.nav-center ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.reserve-btn{
+    float: right;
+    position: relative;
+    top:-50px;
+    padding:20px;
+    background-color: black;
+    
+    border-radius: 20px;
+}
+button a{
+    color:white;
+    text-decoration: none;
+}
+
+.room-container{
+    display: flex;
+}
+
+.room{
+    margin:20px;
+    padding-right: 20px;
+    height: 700px;
+    width:700px;
+    /* background-color: white; */
+    color:white;
+}
+
+.img-container img{
+    height: 300px;
+    padding:0;
+    margin:0;
+    width:500px;
+    display: block;
+    margin:0px;
+}
+
+.button-container{
+    position: relative;
+    top:20px;
+}
+
+.reserve-room-btn{
+    padding:20px;
+    background-color: gold;
+    color:white;
+    border:none;
+    border-radius: 30px;
+}
+
+.amenities-header{
+    color:white;
+    text-align: center;
+}
+
+.amenities-container{
+    display: flex;
+}
+
+.amenities{
+    background-color: gold;
+    margin:50px;
+    padding:20px;
+    border-radius: 50px;
+}
+
+.amenities ul{
+    list-style-type: none;
+}
+
+.amenities ul li{
+    padding:10px;
+    color:black;
+}

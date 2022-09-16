@@ -1,0 +1,164 @@
+:root{
+    --transition: all 0.3s linear;
+    --spacing: 0.1rem;
+    --radius: 0.25rem;
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    --max-width: 1170px;
+    --fixed-width: 620px;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: black;
+}
+
+.main-container{
+    border: 1px solid white;
+    background-color: white;
+    padding:15px;
+    margin:0;
+    
+}
+
+.header-text{
+    color:black;
+    text-align: center;
+    
+}
+
+.header-logo img{
+    height:50px;
+    background-color: white;
+    position: relative;
+}
+
+.nav-center ul{
+    list-style-type: none;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.nav-center ul li{
+    display: inline;
+    padding:30px;
+}
+
+.nav-center ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.reserve-btn{
+    float: right;
+    position: relative;
+    top:-50px;
+    padding:20px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.reserve-btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.form-container{
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 0 0 0 0.2px white;
+    padding: 20px;
+    margin-top: 200px;
+    width: 420px;
+    position: relative;
+    left:400px;
+}
+
+.form-row-1{
+    display: flex;
+}
+
+.departure{
+    position: relative;
+    color: black;
+    left:205px;
+    top:12px;
+}
+
+.form-row-1 select{
+    padding:2px;
+    margin:2px;
+    border-radius: 10px;
+}
+
+.form-row-2{
+    margin:10px;
+    position: relative;
+    left:40px;
+    /* padding:10px; */
+}
+
+.form-row-3{
+    margin:10px;
+    position: relative;
+    left:40px;
+}
+
+.form-row-4{
+    display: flex;
+}
+
+/* .form-row-4 h6{
+    margin-right: 80px;
+    margin-left: 40px;
+}
+
+.ppl-headline{
+    position: relative;
+    left:20px;
+} */
+
+.form-row-5{
+    display: flex;
+}
+
+.form-row-5 select{
+    margin-right: 50px;
+    align-items: center;
+    margin-left: 40px;
+    height: 37px;
+    border-radius: 30px;   
+}
+
+#pets-container{
+    position: relative;
+    left:10px;
+}
+
+#ppl-container{
+    position: relative;
+    right: 48px;
+}
+
+
+input{
+    height:30px;
+    border-radius: 12px;
+}
+
+.button-container{
+    position: relative;
+    left:350px;
+}
+
+.confirm-btn{
+    padding:5px;
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+}
